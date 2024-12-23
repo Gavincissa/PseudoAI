@@ -114,6 +114,38 @@ ${code}
 nums = input["nums"]
 result = maxSubArray(nums)
     `,
+    'jump-game': (code) => `
+${code}
+nums = input["nums"]
+result = canJump(nums)
+    `,
+    'jump-game-ii': (code) => `
+${code}
+nums = input["nums"]
+result = jump(nums)
+    `,
+    'best-time-to-buy-and-sell-stock-ii': (code) => `
+${code}
+prices = input["prices"]
+result = maxProfit(prices)
+    `,
+    'rotate-array': (code) => `
+${code}
+nums = input["nums"]
+k = input["k"]
+rotate(nums, k)
+result = nums
+    `,
+    'majority-element': (code) => `
+${code}
+nums = input["nums"]
+result = majorityElement(nums)
+    `,
+
+
+
+
+
 
 
 
@@ -229,6 +261,38 @@ export const javascriptFunctionCalls = {
         const nums = input.nums;
         const result = maxSubArray(nums);
     `,
+    'jump-game': (code) => `
+${code}
+        let nums = input["nums"];
+        let result = canJump(nums);
+    `,
+    'jump-game-ii': (code) => `
+${code}
+        let nums = input["nums"];
+        let result = jump(nums);
+    `,
+    'best-time-to-buy-and-sell-stock-ii': (code) => `
+${code}
+        let prices = input["prices"];
+        let result = maxProfit(prices);
+    `,
+    'rotate-array': (code) => `
+${code}
+        let nums = input["nums"];
+        let k = input["k"];
+        rotate(nums, k);
+        let result = nums;
+    `,
+    'majority-element': (code) => `
+${code}
+        let nums = input["nums"];
+        let result = majorityElement(nums);
+    `,
+
+
+
+
+
 
     default: (code) => `
         ${code}
